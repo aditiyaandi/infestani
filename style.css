@@ -1,0 +1,295 @@
+*{
+  font-family: 'Muli';
+}
+.kontent {
+    background-image: url(https://images.unsplash.com/photo-1557599175-532ffcfcbd74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    min-height: 400px;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    height: 120vh;
+    background-image: url(img/sawah.png);
+    background-size: cover;
+    border-radius: 0px !important;
+}
+
+.jumbotron .container {
+    margin-top: 24vh !important;
+}
+
+.tentangkami {
+    padding-top: 20px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px #b8b7b73b;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.container-list-berita{
+  background: linear-gradient(45deg, #178d64, #88af1b);
+}
+
+
+.coins {
+  background-image: url(img/vector/woman-illustration-2.svg);
+  min-height: 200px;
+  background-size: cover;
+}
+
+.text-bold {
+  font-weight: bold !important;
+}
+
+.text-mojito {
+  color: #178d64 !important;
+}
+
+.card {
+  border: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.card:hover{
+  transform: scale(1.03);
+  box-shadow: 0px 8px 20px #2424241c;
+}
+
+
+/* Form Style */
+
+  .image-login{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-control {
+    padding: 20px !important;
+    border: 1px solid white;
+    background: #c8ccca3d;
+  }
+
+  .form-control::placeholder {
+    color: #bbb;
+  }
+
+  .form-control:focus {
+    background: #a1a8a43d;
+    border: 1px solid #eee;
+    box-shadow: none;
+  }
+
+  p .daftar-yuk {
+   color: #22a577;
+  }
+
+  p .daftar-yuk:hover {
+    color: #185a43;
+  }
+
+
+/* End of Form Style */
+
+
+/* Button Style */
+
+.btn {
+  padding: 10px 20px !important;
+}
+
+.btn-white {
+  background: white;
+  border: 1px solid white;
+  color: #178d64;
+  transition: 300ms;
+}
+
+.btn-white:hover {
+  color: #185a43;
+  transform: scale(1.02);
+}
+
+.btn-mojito {
+  background: linear-gradient(45deg, #178d64, #88af1b);
+  border: none;
+  color: white;
+  transition: 300ms;
+}
+
+.btn-mojito:hover {
+  background: linear-gradient(7s5deg, #178d64, #88af1b);
+  color: white;
+  transform: scale(1.02);
+  opacity: 1;
+}
+
+.btn-mojito:focus {
+  box-shadow: none;
+}
+
+/* End of Button Style */
+
+/* footer */
+  footer{
+    color: white;
+    margin-top: 120px;
+  }
+  footer a{
+    color: #178d64;
+  }
+  footer a:hover{
+    color: white;
+  }
+  
+  .footer-bottom{
+    background: #151a17;
+    padding-top: 20px;
+
+  }
+  /* .footer-top{
+    background: #2d4958;  
+  } */
+  .footer-middle{
+    background: #1c201e;
+    padding-bottom: 30px;
+    padding-top: 2em;
+    color: white;
+  }
+  /**Sub Navigation**/
+  .subnavigation-container{
+    background: #3d6277;
+  }
+  .subnavigation .nav-link{
+    color: white;
+    font-weight: bold;
+  }
+  .subnavigation-container{
+    text-align: center;
+  }
+  .subnavigation-container .navbar{
+    display: inline-block;
+    margin-bottom: -6px; /* Inline-block margin offffset HACK -Gilron */
+  }
+  .col-subnav a{
+    padding: 1rem 1rem;
+    color: white;
+    font-weight: bold;
+  }
+  .col-subnav .active{
+    border-top:5px solid orange;
+   background: white;
+    color: black;
+  }
+
+
+@media (max-width: 800px) {
+  .jumbotron-description-wrapper{
+    width: 100% !important;
+  }  
+}
+
+@media (max-width: 770px) {
+  .coins {
+    display: none;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .jumbotron .container .display-4 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .jumbotron {
+    margin-top: 10vh;
+  }
+
+  .navbar-nav .btn-mojito {
+    margin-left: 0px !important;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 552px) {
+  
+  .navbar-light {
+    background: white !important;
+  }
+
+  .brand-black {
+    display: none !important;
+  }
+
+  .brand-colored {
+    display: block !important;
+  }
+
+  .card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .button-jumbotron-wrapper .btn-white{
+    background: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    color: #178d64;
+  }
+  
+  .button-jumbotron-wrapper .btn{
+    width: 100%;
+  }
+
+  .kontent {
+    margin-top: -20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+
+
+  
+  
+}
+
+@media (max-height: 690px) {
+  .jumbotron .container {
+    margin-top: 60px !important;
+  }
+}
+
+@media (max-height: 550px) {
+
+
+  .jumbotron .container {
+    margin-top: 33px !important;
+  }
+
+  .jumbotron .container h1{
+    font-size: 36px;
+  }
+
+  .jumbotron .container .lead {
+    font-size: 18px;
+  }
+
+  .button-jumbotron-wrapper .btn-outline-dark {
+    margin-top: 5px;
+  }
+}
+
+ /* @media (min-width: 992px) {
+     .jumbotron {
+        margin-top: -80px;
+     }
+ } */
